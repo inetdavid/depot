@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 # Use HAML for our templating engine (which still supports ERB templates)
 gem 'haml'
+gem 'haml-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
