@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'haml-rails'
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -21,6 +22,10 @@ group :assets do
   gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  # Required for html2haml conversions.
+  gem 'hpricot'
+  gem 'ruby_parser'
 end
 
 gem 'jquery-rails'
